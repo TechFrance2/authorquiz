@@ -21,11 +21,50 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: whitesmoke;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.card-game,
+.info {
+  margin: 1rem;
+  background-color: rgba(41, 43, 34, 0.219);
+}
+
+.catagory {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.QuizQuestion {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  text-align: center;
+}
+.QuizEnd {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 20px;
+}
+.QuizEnd a {
+  display: block;
+  padding-top: 20px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
