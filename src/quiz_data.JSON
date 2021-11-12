@@ -1,0 +1,47 @@
+[
+  {
+    "id": 10,
+    "name": "charlesdickens",
+    "icon": "dickens"
+  },
+  {
+    "id": 20,
+    "name": "jkrowling",
+    "icon": "rowling"
+  },
+  {
+    "id": 30,
+    "name": "josephconrad",
+    "icon": "conrad"
+  },
+  {
+    "id": 40,
+    "name": "marktwain",
+    "icon": "twain"
+  },
+  {
+    "id": 50,
+    "name": "stephenking",
+    "icon": "king"
+  },
+  {
+    "id": 60,
+    "name": "williamshakespeare",
+    "icon": "shakespear"
+  },
+  {
+    "id": 70,
+    "name": "donlimon",
+    "icon": "limon"
+  },
+  {
+    "id": 80,
+    "name": "sidneyshedon",
+    "icon": "sheldon"
+  },
+  {
+    "id": 90,
+    "name": "drsuess",
+    "icon": "suess"
+  }
+]
