@@ -1,5 +1,6 @@
 import React from "react";
-import "./App.css";
+import Quiz from './Quiz.js';
+import "./AuthorQuiz.css";
 
 function Hero() {
   return (
@@ -28,6 +29,7 @@ function Turn({ author, books }) {
       <div className="col-6">
         {books.map((title) => (
           <Book title={title} key={title} />
+
         ))}
       </div>
     </div>
@@ -43,11 +45,10 @@ function Footer() {
     <div id="footer" className="row">
       <div className="col-12">
         <p className="text-muted credit">
-          All images are from
-          <a href="http://commons.wikimedia.org/wiki/Main_Page">
-            Wikimedia Commons
-          </a>{" "}
-          and are in the public domain
+          Placeholder -
+          <a href="quiz_data.JSON">
+          </a>{"internal file to mock fecth requsts"}
+          This can be the continuation of the quiz.
         </p>
       </div>
     </div>
@@ -60,6 +61,9 @@ function AuthorQuiz({ turnData }) {
       <Hero />
       <Turn {...turnData} />
       <Continue />
+      <Quiz>
+
+      </Quiz>
       <Footer />
     </div>
   );
